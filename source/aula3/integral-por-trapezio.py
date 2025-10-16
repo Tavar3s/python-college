@@ -26,7 +26,8 @@ plt.plot(x, z, marker='o', label='vx(x)')
 plt.title("Valores de z contra h")
 
 # Definindo domínio limitante
-plt.xlim(0, 0.1)
+plt.xscale('log')
+plt.xlim(0.0001, 0.1)
 plt.ylim(3, 3.2)
 
 # Configurações e execução
